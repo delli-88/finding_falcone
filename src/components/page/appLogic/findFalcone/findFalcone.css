@@ -1,0 +1,66 @@
+.planets-container{
+  margin: 0rem 1rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 2rem
+}
+
+.find-button,
+.reset-button{
+  font-size: 1.5rem;
+}
+
+
+.find-button:hover{
+    background-color: #66CC99;
+}
+
+.reset-button:hover{
+  background-color:#FF9999;
+}
+
+.planet-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .planet-card {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 100%; /* Display 1 card on xs */
+  }
+  
+  @media (min-width: 576px) {
+    .planet-card {
+      flex: 1 1 calc(50% - 1rem); /* Display 2 cards on sm */
+      background-color: red;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .planet-card {
+      flex: 1 1 calc(33.33% - 1rem); /* Display 3 cards on md */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .planet-card {
+      flex: 1 1 calc(25% - 1rem); /* Display 4 cards on lg and beyond */
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .planets-container{
+      margin: 7rem 1rem;
+    }
+  }
+  

@@ -1,0 +1,79 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-card {
+    background-color: lightgreen;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 25rem;
+    margin: 9rem 1rem;
+  }
+  
+  .action-button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #135589;
+  }
+  
+
+  .failure-card {
+    background-color: #fcd5d5; 
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 20rem;
+    margin: 12rem 1rem;
+  }
+
+  
+  .retry-button {
+    background-color: #f28b82;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .retry-button:hover {
+    background-color: #d96459;
+  }
+  
+  
+  .info-card {
+    background-color: #d3e3f5;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 20rem;
+    margin: 8rem 1rem;
+  }
+  
+  .info-button {
+    background-color:  #0c6fdf;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .info-button:hover {
+    background-color: #b8cff9;
+  }

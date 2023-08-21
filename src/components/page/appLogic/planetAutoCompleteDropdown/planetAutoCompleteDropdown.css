@@ -1,0 +1,65 @@
+.planet-selector {
+    position: relative;
+  }
+  
+  .input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .planet-input{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .planet-input:focus{
+    outline: none;
+    border-color: #1976d2;
+  }
+  
+  .planet-list {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0.5rem;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: start;
+    cursor: pointer;
+  }
+  
+    .planet-list li {
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.1rem;
+  }
+  
+  .planet-list li:hover {
+    background-color: #f2f2f2;
+    background-color: gray;
+    color: white;
+  }
+
+  .placeholder { 
+    color: #808080;
+  }
+
+  
+  .disabled {
+    color: #999999; 
+  }
+
+  .planet-list li.disabled:hover{
+    cursor: default;
+    background-color: white;
+    color: #999999;
+  }
+
+
